@@ -105,21 +105,3 @@ fun main() {
     cinemaLayout()
     menuPrint()
 }
-
-// PRICE PER TICKET:
-//
-//    val smallRoomProfit = totalSeats * fullPrice
-//    val largeFrontProfit = rows / 2 * seats * fullPrice
-//    val largeBackProfit = (rows - rows / 2) * seats * reducedPrice
-
-
-//    val income =
-//        if (totalSeats <= capacity) {
-//            smallRoomProfit
-//        } else {
-//            largeFrontProfit + largeBackProfit
-//        }
-//
-//    println()
-//    println("Total income:")
-//    println("$$income")
